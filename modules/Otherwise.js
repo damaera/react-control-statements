@@ -1,4 +1,6 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
+
+import PropTypes from 'prop-types';
 
 import If from './If.js'
 
@@ -11,7 +13,7 @@ const Otherwise = (props) => {
 }
 
 Otherwise.propTypes = {
-  children: PropTypes.element,
+  children: PropTypes.any,
 }
 
 export default Otherwise;

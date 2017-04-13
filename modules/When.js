@@ -1,4 +1,6 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
+
+import PropTypes from 'prop-types';
 
 import If from './If.js'
 
@@ -8,7 +10,7 @@ const When = (props) => {
 
 When.propTypes = {
   condition: PropTypes.any,
-  children: PropTypes.element,
+  children: PropTypes.any,
 }
 
 export default When;
