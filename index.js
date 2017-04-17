@@ -1,6 +1,9 @@
-import If from './modules/If'
-import Choose from './modules/Choose'
-import When from './modules/When'
-import Otherwise from './modules/Otherwise'
+const If = require('./modules/If')
+const When = require('./modules/When')
+const Choose = require('./modules/Choose')
+const Otherwise = require('./modules/Otherwise')
 
-export { If, Choose, When, Otherwise }
+exports.If = If
+exports.When = When
+exports.Choose = Choose
+exports.otherwise = otherwise
