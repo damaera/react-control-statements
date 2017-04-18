@@ -1,9 +1,9 @@
-const If = require('./modules/If')
-const When = require('./modules/When')
-const Choose = require('./modules/Choose')
-const Otherwise = require('./modules/Otherwise')
+var If = require('./dist/If')
+var When = require('./dist/When')
+var Choose = require('./dist/Choose')
+var Otherwise = require('./dist/Otherwise')
 
-exports.If = If
-exports.When = When
-exports.Choose = Choose
-exports.otherwise = otherwise
+exports.If = If.default
+exports.When = When.default
+exports.Choose = Choose.default
+exports.Otherwise = Otherwise.default
