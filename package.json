@@ -1,6 +1,6 @@
 {
     "name": "react-conditioner",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "description": "Conditional component for react",
     "repository": {
         "type": "git",
