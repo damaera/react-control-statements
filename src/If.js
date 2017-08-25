@@ -3,7 +3,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const If = (props) => {
-  console.log(props)
   if (props.condition) {
     return (
       <span>
