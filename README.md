@@ -1,7 +1,7 @@
 [![npm version](https://img.shields.io/npm/v/react-conditioner.svg?style=flat-square)](https://www.npmjs.com/package/react-conditioner)
 [![Build Status](https://travis-ci.org/damaera/react-conditioner.svg?branch=master)](https://travis-ci.org/damaera/react-conditioner)
 
-How many times have you written ternary statements like this in your JSX code?
+How many times have you written ternary statements like this in your JSX code? 
 
 ```jsx
 class YourComponent extends Component {

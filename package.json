@@ -1,20 +1,21 @@
 {
-    "name": "react-conditioner",
-    "version": "1.1.0",
-    "description": "Conditional component for react, if else as a component",
+    "name": "react-control-statement",
+    "version": "2.1.0",
+    "description": "Neater control statements (if/for) for react, as a component",
     "repository": {
         "type": "git",
-        "url": "https://github.com/damaera/react-conditioner.git"
+        "url": "https://github.com/damaera/react-control-statements.git"
     },
     "author": "Lutfi Mukti Damaera",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/damaera/react-conditioner/issues"
+        "url": "https://github.com/damaera/react-control-statements/issues"
     },
-    "homepage": "https://github.com/damaera/react-conditioner",
+    "homepage": "https://github.com/damaera/react-control-statements",
     "keywords": [
         "react-component",
         "conditional",
+        "control-statement",
         "if-else",
         "react"
     ],
