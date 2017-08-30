@@ -14,8 +14,8 @@ const If = (props) => {
 }
 
 If.propTypes = {
-  condition: PropTypes.any,
-  children: PropTypes.any,
+  condition: PropTypes.any.isRequired,
+  children: PropTypes.any.isRequired,
 }
 
 export default If;

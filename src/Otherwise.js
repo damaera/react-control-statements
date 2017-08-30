@@ -13,7 +13,7 @@ const Otherwise = (props) => {
 }
 
 Otherwise.propTypes = {
-  children: PropTypes.any,
+  children: PropTypes.any.isRequired,
 }
 
 export default Otherwise;

@@ -60,7 +60,18 @@
     return foundEl;
   };
 
-  Choose.propTypes = {};
+  Choose.propTypes = {
+    children: function children(props, propName, componentName) {
+      // only allow When and Otherwise child
+      var prop = props[propsName];
+      var error = null;
+      _react2.default.Children.forEach(prop, function (child) {
+        if (child.type !== 'When' && child.type !== 'Otherwise') {
+          error = new Error('`' + componentName + '` children should be of type `When` or `Otherwise`');
+        }
+      });
+    }
+  };
 
   exports.default = Choose;
 });
