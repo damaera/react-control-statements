@@ -38,7 +38,7 @@
   };
 
   Otherwise.propTypes = {
-    children: _propTypes2.default.any
+    children: _propTypes2.default.any.isRequired
   };
 
   exports.default = Otherwise;

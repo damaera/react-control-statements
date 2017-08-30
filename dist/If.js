@@ -39,8 +39,8 @@
   };
 
   If.propTypes = {
-    condition: _propTypes2.default.any,
-    children: _propTypes2.default.any
+    condition: _propTypes2.default.any.isRequired,
+    children: _propTypes2.default.any.isRequired
   };
 
   exports.default = If;
