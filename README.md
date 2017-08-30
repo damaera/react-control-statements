@@ -1,5 +1,26 @@
 [![npm version](https://img.shields.io/npm/v/react-conditioner.svg?style=flat-square)](https://www.npmjs.com/package/react-conditioner)
 
+How many times have you written ternary statements like this in your JSX code?
+
+```jsx
+class YourComponent extends Component {
+  render() {
+    return (
+      <div>
+        { loading
+          ? <Loading>Loading...</Loading>
+          : <Content>
+              <div>Content</div>
+            </Content>
+        }
+      </div>
+    )
+  }
+}
+```
+
+Ugly? not readable? yes!
+
 There's no built-in conditional syntax in React. This library adds the syntactic sugar to write conditionals as component.
 Inspired by [jsx control statements](https://www.npmjs.com/package/jsx-control-statements)
 
@@ -8,7 +29,7 @@ Inspired by [jsx control statements](https://www.npmjs.com/package/jsx-control-s
 npm install --save react-conditioner
 ```
 
-## Syntax
+## Usage
 
 ### If
 The body of the if statement only gets evaluated if condition is true.
@@ -20,6 +41,9 @@ class YourComponent extends Component {
   render() {
     <If condition={ test }>
       <span>Truth</span>
+    </If>
+    <If condition={ !test }>
+      <span>Second Truth</span>
     </If>
   }
 }
