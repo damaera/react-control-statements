@@ -45,7 +45,7 @@ const For = (thisProps) => {
               return null
             }
             return child
-          } else {
+          } else { // eslint-disable-line no-else-return
             Object.keys(props).map((prop) => {
               const val = props[prop]
               newProps[prop] = val
@@ -86,7 +86,7 @@ const For = (thisProps) => {
       return ChildEl(children, item)
     })
     return <span> { ParentEl } </span>
-  } else {
+  } else { // eslint-disable-line no-else-return
     return null
   }
 }
