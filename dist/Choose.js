@@ -63,7 +63,7 @@
   Choose.propTypes = {
     children: function children(props, propName, componentName) {
       // only allow When and Otherwise child
-      var prop = props[propsName];
+      var prop = props[propName];
       var error = null;
       _react2.default.Children.forEach(prop, function (child) {
         if (child.type !== 'When' && child.type !== 'Otherwise') {
