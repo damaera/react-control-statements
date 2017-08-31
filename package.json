@@ -1,6 +1,6 @@
 {
-    "name": "react-control-statement",
-    "version": "2.1.0",
+    "name": "react-control-statements",
+    "version": "2.1.1",
     "description": "Neater control statements (if/for) for react, as a component",
     "repository": {
         "type": "git",
@@ -15,8 +15,10 @@
     "keywords": [
         "react-component",
         "conditional",
-        "control-statement",
+        "syntax",
+        "control-statements",
         "if-else",
+        "looping",
         "react"
     ],
     "options": {
