@@ -31,7 +31,7 @@ const Choose = (props) => {
 Choose.propTypes = {
   children: (props, propName, componentName) => {
     // only allow When and Otherwise child
-    const prop = props[propsName]
+    const prop = props[propName]
     let error = null
     React.Children.forEach(prop, (child) => {
       if (child.type !== 'When' && child.type !== 'Otherwise') {
